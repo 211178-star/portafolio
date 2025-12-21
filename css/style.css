@@ -36,17 +36,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 90px; /* un poco más alto para que respire */
+  min-height: 120px; /* altura suficiente para logo grande */
 }
 
 /* ===== LOGO ===== */
-.logo {
-  display: flex;
-  align-items: center;
-}
-
 .logo img {
-  height: 80px;      /* 👈 AQUÍ está el cambio importante */
+  height: 120px;   /* 🔥 LOGO GRANDE */
   width: auto;
   display: block;
 }
@@ -55,14 +50,14 @@ body {
 .menu {
   list-style: none;
   display: flex;
-  gap: 28px;
+  gap: 24px;
 }
 
 .menu li a {
   text-decoration: none;
   color: var(--color-oscuro);
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .menu li a:hover {
