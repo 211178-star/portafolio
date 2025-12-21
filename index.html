@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <!-- ===== HEADER ===== -->
+  <!-- ===== PASO 1: HEADER ===== -->
   <header class="encabezado">
     <nav class="navegacion contenedor">
       <a class="logo" href="#inicio">
@@ -25,60 +25,77 @@
     </nav>
   </header>
 
-  <!-- ===== CONTENIDO ===== -->
-  <main>
+  <!-- ===== PASO 2: HERO ===== -->
+  <section id="inicio" class="hero">
+    <div class="contenedor hero-grid">
+      <div>
+        <span class="badge">Bienvenido a mi portafolio</span>
 
-    <!-- ===== INICIO / HERO ===== -->
-    <section id="inicio" class="inicio">
-      <div class="contenedor hero">
+        <h1>Soy Wilmer Inca y<br>soy diseñador UX/UI</h1>
 
-        <div class="hero-texto">
-          <h1>Wilmer Inca</h1>
-          <h2>Estudiante de Ingeniería de Software</h2>
+        <p>
+          Tengo 21 años y me apasiona crear experiencias digitales
+          únicas y funcionales que conectan con las personas.
+        </p>
+
+        <div class="hero-botones">
+          <a href="#contacto" class="btn btn-primario">Contactarme</a>
+          <a href="#proyectos" class="btn btn-secundario">Ver proyectos</a>
+        </div>
+      </div>
+
+      <div class="hero-logo">
+        <img src="img/logo.png" alt="Logo Wilmer Inca">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PASO 3: SOBRE MÍ ===== -->
+  <section id="sobre-mi" class="about">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">Un poco sobre mí</h2>
+
+      <div class="about-card">
+        <div class="about-img">
+          <img src="img/about.jpg" alt="Wilmer Inca trabajando">
+        </div>
+
+        <div class="about-info">
           <p>
-            Soy estudiante de Ingeniería de Software con interés en el
-            desarrollo web y la creación de soluciones digitales modernas.
+            Soy Wilmer Inca, tengo 21 años y me dedico al diseño UX/UI.
+            Mi pasión es crear interfaces intuitivas y atractivas que
+            mejoren la experiencia de los usuarios.
           </p>
 
-          <div class="hero-botones">
-            <a href="#proyectos" class="btn btn-principal">Ver proyectos</a>
-            <a href="#contacto" class="btn btn-secundario">Contactarme</a>
+          <p>
+            Con experiencia en diseño centrado en el usuario,
+            prototipado y desarrollo frontend, busco siempre la
+            excelencia en cada proyecto que emprendo.
+          </p>
+
+          <p>
+            Me encanta aprender nuevas tecnologías y mantenerme
+            actualizado con las últimas tendencias en diseño y
+            desarrollo web.
+          </p>
+
+          <div class="about-redes-titulo">Encuéntrame en:</div>
+
+          <div class="about-redes">
+            <a href="#">in</a>
+            <a href="#">ig</a>
+            <a href="#">gh</a>
+            <a href="#">✉</a>
           </div>
         </div>
-
-        <div class="hero-imagen">
-          <img src="img/logo.png" alt="Logo Wilmer Inca">
-        </div>
-
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- ===== SOBRE MÍ ===== -->
-    <section id="sobre-mi">
-      <!-- luego lo llenamos -->
-    </section>
-
-    <!-- ===== HABILIDADES ===== -->
-    <section id="habilidades">
-      <!-- luego lo llenamos -->
-    </section>
-
-    <!-- ===== PROYECTOS ===== -->
-    <section id="proyectos">
-      <!-- luego lo llenamos -->
-    </section>
-
-    <!-- ===== CONTACTO ===== -->
-    <section id="contacto">
-      <!-- luego lo llenamos -->
-    </section>
-
-  </main>
-
-  <!-- ===== FOOTER ===== -->
-  <footer>
-    <!-- luego -->
-  </footer>
+  <!-- ===== SIGUIENTES SECCIONES ===== -->
+  <section id="habilidades"></section>
+  <section id="proyectos"></section>
+  <section id="contacto"></section>
 
   <script src="js/main.js"></script>
 </body>
