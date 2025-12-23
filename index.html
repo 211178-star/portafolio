@@ -1,17 +1,102 @@
-git<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wilmer | Portafolio</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio | Wilmer Inca</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-    <div id="app">
-        <h1>Cargando Portafolio...</h1>
-    </div>
+  <!-- ===== PASO 1: HEADER ===== -->
+  <header class="encabezado">
+    <nav class="navegacion contenedor">
+      <a class="logo" href="#inicio">
+        <img src="img/logo.png" alt="Logo de Wilmer Inca">
+      </a>
 
-    <script src="js/main.js"></script>
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== PASO 2: HERO ===== -->
+  <section id="inicio" class="hero">
+    <div class="contenedor hero-grid">
+      <div>
+        <span class="badge">Bienvenido a mi portafolio</span>
+
+        <h1>Soy Wilmer Inca y<br>soy diseñador UX/UI</h1>
+
+        <p>
+          Tengo 21 años y me apasiona crear experiencias digitales
+          únicas y funcionales que conectan con las personas.
+        </p>
+
+        <div class="hero-botones">
+          <a href="#contacto" class="btn btn-primario">Contactarme</a>
+          <a href="#proyectos" class="btn btn-secundario">Ver proyectos</a>
+        </div>
+      </div>
+
+      <div class="hero-logo">
+        <img src="img/logo.png" alt="Logo Wilmer Inca">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PASO 3: SOBRE MÍ ===== -->
+  <section id="sobre-mi" class="about">
+    <div class="contenedor">
+      <h2 class="titulo-seccion">Un poco sobre mí</h2>
+
+      <div class="about-card">
+        <div class="about-img">
+          <img src="img/about.jpg" alt="Wilmer Inca trabajando">
+        </div>
+
+        <div class="about-info">
+          <p>
+            Soy Wilmer Inca, tengo 21 años y me dedico al diseño UX/UI.
+            Mi pasión es crear interfaces intuitivas y atractivas que
+            mejoren la experiencia de los usuarios.
+          </p>
+
+          <p>
+            Con experiencia en diseño centrado en el usuario,
+            prototipado y desarrollo frontend, busco siempre la
+            excelencia en cada proyecto que emprendo.
+          </p>
+
+          <p>
+            Me encanta aprender nuevas tecnologías y mantenerme
+            actualizado con las últimas tendencias en diseño y
+            desarrollo web.
+          </p>
+
+          <div class="about-redes-titulo">Encuéntrame en:</div>
+
+          <div class="about-redes">
+            <a href="#">in</a>
+            <a href="#">ig</a>
+            <a href="#">gh</a>
+            <a href="#">✉</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PASO 4 (VACÍO POR AHORA) ===== -->
+  <section id="habilidades"></section>
+  <section id="proyectos"></section>
+  <section id="contacto"></section>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
